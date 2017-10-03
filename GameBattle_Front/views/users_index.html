@@ -1,0 +1,45 @@
+
+<div class="login-bg">
+    <svg class="gamebook" viewBox="0 0 960 300">
+        <symbol id="s-text">
+          <text text-anchor="middle" x="50%" y="80%">GameBook
+          </text>
+        </symbol>
+      
+        <g class = "g-ants">
+          <use xlink:href="#s-text" class="text-copy"></use>
+          <use xlink:href="#s-text" class="text-copy"></use>
+          <use xlink:href="#s-text" class="text-copy"></use>
+          <use xlink:href="#s-text" class="text-copy"></use>
+          <use xlink:href="#s-text" class="text-copy"></use>
+        </g>
+      </svg>
+
+  <div class="container">
+    <div class="form-container flip">
+      <form class="login-form1">
+        <h3 class="title">Hello, {{currentUser.username}}</h3>
+        <div class="login-user-info">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="logInUser">
+                <input class="form-input" placeholder="Username" id="email" ng-model="username" required="true"></input>
+              </div>
+              <div class="logInPass">
+                <input type="password" class="form-input" placeholder="Password" ng-model="password" required="true"></input>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <img class="profile-img-login" src="{{ currentUser.profilePic}}">
+            </div>
+          </div>
+
+        </div>
+        <div class="form-group">
+          <button class="login-button" ng-click="validateUser()">Login</button>
+          <span class="sign-up">Don`t have an account? <a ui-sref="newUsers">Sign up</a></span>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

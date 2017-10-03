@@ -1,0 +1,12 @@
+/Users/macbookpro13/Desktop/GameBattle/bin/Debug/netcoreapp2.0/GameBattle.deps.json
+/Users/macbookpro13/Desktop/GameBattle/bin/Debug/netcoreapp2.0/GameBattle.runtimeconfig.json
+/Users/macbookpro13/Desktop/GameBattle/bin/Debug/netcoreapp2.0/GameBattle.runtimeconfig.dev.json
+/Users/macbookpro13/Desktop/GameBattle/bin/Debug/netcoreapp2.0/GameBattle.dll
+/Users/macbookpro13/Desktop/GameBattle/bin/Debug/netcoreapp2.0/GameBattle.pdb
+/Users/macbookpro13/Desktop/GameBattle/obj/Debug/netcoreapp2.0/GameBattle.csproj.CoreCompileInputs.cache
+/Users/macbookpro13/Desktop/GameBattle/obj/Debug/netcoreapp2.0/GameBattle.AssemblyInfoInputs.cache
+/Users/macbookpro13/Desktop/GameBattle/obj/Debug/netcoreapp2.0/GameBattle.AssemblyInfo.cs
+/Users/macbookpro13/Desktop/GameBattle/obj/Debug/netcoreapp2.0/GameBattle.dll
+/Users/macbookpro13/Desktop/GameBattle/obj/Debug/netcoreapp2.0/GameBattle.pdb
+/Users/macbookpro13/Desktop/GameBattle/bin/Debug/netcoreapp2.0/libe_sqlite3.dylib
+/Users/macbookpro13/Desktop/GameBattle/obj/Debug/netcoreapp2.0/GameBattle.csprojResolveAssemblyReference.cache

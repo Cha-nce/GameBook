@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{A196F301-6C9A-48BD-84A8-839860E5E768}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/ClansAcceptController.cs">
+    <Files>
+      <File FileName="Controllers/ClansController.cs" Line="42" Column="15" />
+      <File FileName="Program.cs" Line="17" Column="1" />
+      <File FileName="Controllers/ClansAcceptController.cs" Line="31" Column="10" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/macbookpro13/Desktop/GameBattle/Controllers/ClansRequestController.cs" relfile="Controllers/ClansRequestController.cs" line="50" column="1" />
+      <Breakpoint file="/Users/macbookpro13/Desktop/GameBattle/Controllers/ClansAcceptController.cs" relfile="Controllers/ClansAcceptController.cs" line="26" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.GameBattle PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

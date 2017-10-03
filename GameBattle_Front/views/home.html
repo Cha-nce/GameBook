@@ -1,0 +1,64 @@
+<div>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a ui-sref="home" class="navbar-brand">GameBook</a>
+      </div>
+      <ul class="nav navbar-nav navbar-right navItems">
+        <li class="dropdown">
+          <a class="dropdown-toggle settings myDropdown" data-toggle="dropdown"><span class="glyphicon glyphicon-user myIcon" aria-hidden="true"></span>{{ currentUser.username }} <span class="caret myCaret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a ui-sref="showUsers">View Profile</a></li>
+            <li><a ui-sref="addUsers">Search Friends</a></li>
+            <li><a ui-sref="showClans">Search Clans</a></li>
+            <li><a ui-sref="users">Sign Off</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+
+
+<div class="container-fluid homeView">
+  <div class="row">
+    <div class="newsSlider">
+      <div class="newsSlides">
+        <div ng-click="nextArticle()" ng-if="articleCount == $index" ng-repeat="news in myNews" class="newsSlide slideOutRight">
+          <div class="col-md-5">
+            <img class="sliderImg" src="{{ news.urlToImage }}">
+          </div>
+          <div class="col-md-7">
+            <h1 class="text-center">{{ news.title }}</h1>
+            <h3 class="text-center">By: {{ news.author }}</h3>
+            <p>{{ news.description }}</p>
+            <p>Click <a target="_blank" href="{{ news.url }}">HERE</a> to read the full article.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container linkContainer">
+    <div class="row">
+      <form class="col-md-3 linkMe1">
+        <h1 class="linkTitle text-center">Clans</h1>
+        <a ui-sref="showClans"><img src="../images/linkImg1.jpg" class="linkImg1"></a>
+      </form>
+      <form class="col-md-3 linkMe2">
+        <h1 class="linkTitle text-center">Game Battles</h1>
+        <img src="../images/linkImg2.jpeg" class="linkImg2">
+        <div class="noticeBox">
+          <div class="notice">Coming Soon!</div>
+        </div>
+      </form>
+      <form class="col-md-3 linkMe3">
+        <h1 class="linkTitle text-center">Forum</h1>
+        <img src="../images/linkImg3.png" class="linkImg3">
+        <div class="noticeBox">
+          <div class="notice">Coming Soon!</div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

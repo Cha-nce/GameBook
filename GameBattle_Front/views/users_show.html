@@ -1,0 +1,131 @@
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a ui-sref="home" class="navbar-brand">GameBook</a>
+        </div>
+        <ul class="nav navbar-nav navbar-right navItems">
+            <li class="dropdown">
+                <a class="dropdown-toggle settings myDropdown" data-toggle="dropdown"><span class="glyphicon glyphicon-user myIcon" aria-hidden="true"></span>{{ currentUser.username }} <span class="caret myCaret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a ui-sref="showUsers">View Profile</a></li>
+                    <li><a ui-sref="addUsers">Search Friends</a></li>
+                    <li><a ui-sref="showClans">Search Clans</a></li>
+                    <li><a ui-sref="users">Sign Off</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="usersView">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="profile-container flip">
+
+                    <form class="profile-form">
+                        <h3 class="title">Profile</h3>
+                        <div class="login-user-info">
+
+                            <div>
+                                <p class="white">Username: </p>
+                                <input type="text" class="form-control profileinput-edit" placeholder="First Name" ng-model="currentUser.username">
+                            </div>
+
+                            <div>
+                                <img class="profile-img" src="{{ myUser.profilePic }}">
+                                <p class="white">Image Url: </p>
+                                <input type="text" class="form-control profileinput-edit" placeholder="First Name" ng-model="currentUser.profilePic">
+                            </div>
+
+                            <div>
+                                <p class="white">Firstname: </p>
+                                <input type="text" class="form-control profileinput-edit" placeholder="First Name" ng-model="currentUser.firstname">
+                            </div>
+
+                            <div>
+                                <p class="white">Lastname: </p>
+                                <input type="text" class="form-control profileinput-edit" placeholder="First Name" ng-model="currentUser.lastname">
+                            </div>
+
+                            <button class="btn btn-primary btn-change">Save Changes</button>
+
+                        </div>
+                    </form>
+                </div>
+
+                <div class="friend-container flip">
+                    <form class="friend-form">
+                        <h3 class="title">Friends</h3>
+                        <div class="login-user-info">
+
+                            <div ng-show="currentUser.friends.length != 0" ng-repeat="friend in currentUser.friends">
+                                <div class="container">
+                                    <div class="row">
+                                        <img class="col-md-4 users-pic" src="{{friend.profilePic}}">
+                                        <h2 class="col-md-8 white">{{friend.username}}</h2>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div ng-show="currentUser.friends.length == 0">
+                                <h1 class="white text-center">You Currently have no friends.</h1>
+                            </div>
+
+                            <button ui-sref="showFriends" class="btn btn-primary btn-change">View All</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+
+            <div class="col-md-8">
+                <div class="notification-container flip">
+                    <form class="notification-form">
+                        <h3 class="title">Notifications</h3>
+                        <div class="login-user-info">
+
+                            <div ng-repeat="directmessage in directmessages">
+                                <div ng-show="directmessage.user1.username != myUser.username">
+                                    <h1 class="white">You have recieved a message from: {{ directmessage.user1.username }} </h1>
+                                    <p class="white">Message: {{ directmessage.message }} </p>
+                                    <!-- <div class="row">
+                                        <button ng-show="view" class="btn btn-primary pull-right" ng-click="view()">View</button>
+                                        <button ng-show="!view" class="btn btn-danger pull-right" ng-click="view()">Hide</button>
+                                    </div> -->
+                                </div>
+                            </div>
+
+                            <div ng-repeat="friendrequest in friendrequests">
+                                <div ng-show="friendrequest.user1.username != myUser.username">
+                                    <h1 class="white">You have recieved a friend request from: {{ friendrequest.user1.username }}</h1>
+                                    <div>
+                                        <button class="btn btn-primary pull-right" ng-click="acceptFriendRequests(friendrequest)">Accept Request</button>
+                                        <button class="btn btn-danger pull-right" ng-click="deleteFriendRequests(friendrequest.id)">Decline Request</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div ng-repeat="clanrequest in clanrequests">
+                                <div ng-show="clanrequest.user2.username == currentUser.username">
+                                    <h1 class="white">{{ clanrequest.user1.username }} wants to join your clan!</h1>
+                                    <p class="white">{{ clanrequest.message }}</p>
+                                    <div>
+                                        <button class="btn btn-primary pull-right" ng-click="acceptClanRequests(clanrequest)">Accept Request</button>
+                                        <button class="btn btn-danger pull-right" ng-click="deleteClanRequests(clanrequest.id)">Decline Request</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div ng-show="clanrequests.length == 0 && friendrequests.length == 0 && directmessages.length == 0">
+                                <h1 class="white text-center">You currently do not have any notifications.</h1>
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>

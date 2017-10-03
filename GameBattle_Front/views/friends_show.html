@@ -1,0 +1,46 @@
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a ui-sref="home" class="navbar-brand">GameBook</a>
+        </div>
+        <ul class="nav navbar-nav navbar-right navItems">
+            <li class="dropdown">
+                <a class="dropdown-toggle settings myDropdown" data-toggle="dropdown"><span class="glyphicon glyphicon-user myIcon" aria-hidden="true"></span>{{ currentUser.username }} <span class="caret myCaret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a ui-sref="showUsers">View Profile</a></li>
+                    <li><a ui-sref="addUsers">Search Friends</a></li>
+                    <li><a ui-sref="showClans">Search Clans</a></li>
+                    <li><a ui-sref="users">Sign Off</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="homeView">
+    <div class="container">
+        <h1 class="text-center white">{{currentUser.username}}'s Friends</h1>
+        <input class="friendsearch" type="text" placeholder="Searching......" ng-model="search">
+        <div ng-repeat="friend in currentUser.friends">
+            <a ng-click="getFriend(friend)" class="friend-anchor">
+                <div ng-show="currentUser.username != user.username" class="view-friends">
+                    <div class="viewBox">
+                        <button class="viewButton btn-primary">View Friend</button>
+                    </div>
+                    <div class="row">
+                        <div class="friendContent">
+                            <div class="col-md-8 white">
+                                <h2>GamerTag: {{ friend.username }}</h2>
+                                <h3>Firstname: {{ friend.firstname }}</h3>
+                                <h3>Lastname: {{ friend.lastname }}</h3>
+                            </div>
+                            <div class="col-md-4">
+                                <img class="find-pic" src="{{ friend.profilePic }}">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>

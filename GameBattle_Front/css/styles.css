@@ -1,0 +1,458 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.white {
+  color: white;
+}
+
+/* Chance */
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0px; 
+  margin-right: 0px;
+}
+.navbar {
+  min-height: 80px; 
+  margin-bottom: 0px;
+}
+
+.navbar-inverse {
+  background-image: url("../images/images.jpeg");
+  background-size: cover;
+  /* background-color: #353444; */
+  border-color: #202020;
+}
+
+.nav-background {
+  background-color: black;
+}
+
+.logIn {
+  color: white;
+  font-size: 14px;
+}
+.header {
+  background-color: #5A449A;
+  height: 300px;
+}
+.signUp {
+  color: #fff;
+  background-color: transparent;
+  border-color: #ffffff;
+}
+.homeText {
+  height: 400px;
+  background-color: #313131;
+}
+.homeImg1 {
+  height: 400px;
+  background-image: url("../images/homeImg1.jpg");
+  background-position: 50% center;
+}
+.homeImg2 {
+  height: 400px;
+  background-image: url("../images/homeImg2.jpg");
+  background-size: cover;
+}
+.homeView {
+  min-height: 800px;
+  background-image: url("../images/backgroundImg1.jpg");
+  background-size:cover;
+  
+}
+.clanView {
+  min-height: 800px;
+  background-image: url("../images/clan.png");
+  background-size:cover;
+}
+.usersView {
+  min-height: 800px;
+  background-image: url("../images/pubg.jpg");
+  background-size: cover;
+}
+
+.clansView {
+  min-height: 800px;
+  background-image: url("../images/clans3.jpg");
+  background-size: cover;
+}
+.addFriendsView {
+  min-height: 800px;
+  background-image: url("../images/friends.jpg");
+  background-size: cover;
+}
+.newsSlider {
+  background-color: black;
+  color: white;
+  height: 300px;
+  width: 1300px;
+  margin-top: 50px;
+  margin-left: 50px;
+  padding-left: 0px;
+  padding-right: 0px;
+  overflow: hidden;
+}
+.newsSlides {
+  display: block;
+  width: 17000px;
+  height: 300px;
+}
+.newsSlide {
+  float: left;
+  list-style-type: none;
+  width: 1300px;
+  height: 300px;
+}
+.sliderImg {
+  height: 300px;
+  width: 100%;
+}
+.linkMe1, .linkMe2, .linkMe3 {
+  background: rgba(47, 61, 65, 0.5);
+  border: 4px solid rgba(47, 61, 65, 0.7);
+  border-radius: 8px;
+  margin-top: 40px;
+  margin-left: 25px;
+  width: 30%;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.linkTitle {
+  background: rgba(47, 61, 65, 0.7);
+  color: #fff;
+  font-weight: normal;
+  font-size: 2em;
+  padding: 10px 10px 10px 20px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+.linkImg1, .linkImg2, .linkImg3 {
+  width: 100%;
+  margin-top: -16px;
+  height: 255px;
+}
+.linkMe2:hover .linkImg2, .linkMe3:hover .linkImg3 {
+  opacity: 0.3;
+}
+.linkMe2:hover .noticeBox, .linkMe3:hover .noticeBox {
+  opacity: 0.9;
+}
+.noticeBox {
+  opacity: 0;
+  position: absolute;
+}
+.notice {
+  color: white;
+  background-color: #4F4F4F;
+  font-size: 16px;
+  padding: 16px 32px;
+  margin-top: -165px;
+  margin-left: 92px;
+}
+.myContainer {
+  width: 194%;
+}
+
+/* Shaneal */
+
+.view-friends:hover .friendContent{
+  opacity: 0;  
+}
+.view-friends:hover .viewBox{
+  opacity: 0.8;  
+}
+.navItems {
+  font-size: 25px;
+  padding-top: 40px;
+}
+.navbar-brand {
+  font-size: 40px;
+  padding-top: 40px;
+}
+.viewBox {
+  opacity: 0;
+  position: absolute;
+}
+.viewButton {
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  margin-top: 45px;
+  margin-left: 465px;
+}
+.navbar {
+  margin-bottom: 0px !important;
+}
+.profileinput-edit {
+  width: 100%;
+}
+
+.friend-anchor {
+  color: black;
+}
+.find-pic {
+  height: 100px;
+}
+
+.main-background {
+  background: rgba(222, 222, 222, 0.7);
+}
+
+.friendsearch {
+  height: 35px;
+  width: 100%;
+}
+
+.view-friends {
+  background: rgba(47, 61, 65, 0.5);
+  border: 4px solid rgba(47, 61, 65, 0.7);
+  border-radius: 8px;
+  height: 200px;
+  padding: 20px;
+  margin: 10px;
+}
+
+
+.navItems {
+  font-size: 25px;
+  padding-top: 40px;
+}
+
+.navbar-brand {
+  font-size: 40px;
+  padding-top: 40px;
+}
+
+.navbar {
+  margin-bottom: 0px !important;
+}
+
+/* LOGIN PAGE */
+.sign-up {
+  padding-left: 16px;
+}
+
+.login-bg {
+  min-height: 800px;
+  background-image: url("../images/homepage.jpg");
+  background-size: cover; 
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.form-container {
+  display: block;
+  margin: 100px auto 0 auto;
+  perspective: 1000;
+}
+
+.profile-container {
+  display: block;
+  perspective: 1000;
+}
+.profile-img {
+  width: 100px;
+  height: 100px;
+  margin-left: 100px;
+  margin-bottom: 10px;
+}
+
+.profile-form {
+  margin-top: 10px;
+  background: rgba(47, 61, 65, 0.5);
+  border: 4px solid rgba(47, 61, 65, 0.7);
+  border-radius: 8px;
+  width: 100%;
+  height: 500px;
+  /* padding:20px; */
+}
+.login-user-info {
+  padding: 20px;
+}
+.login-form {
+  background: rgba(47, 61, 65, 0.5);
+  border: 4px solid rgba(47, 61, 65, 0.7);
+  border-radius: 8px;
+  width: 100%;
+}
+.login-form1 {
+  background: rgba(47, 61, 65, 0.5);
+  border: 4px solid rgba(47, 61, 65, 0.7);
+  border-radius: 8px;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: -80px;
+}
+.message-form {
+  background: rgba(47, 61, 65, 0.5);
+  border: 4px solid rgba(47, 61, 65, 0.7);
+  border-radius: 8px;
+  width: 100%;
+  margin-top: 10px;
+  height: 380px;
+}
+
+.notification-form {
+  background: rgba(47, 61, 65, 0.5);
+  border: 4px solid rgba(47, 61, 65, 0.7);
+  border-radius: 8px;
+  margin-top: 10px;
+  width: 700px;
+  height: 750px;
+}
+
+.textbox {
+  width: 100%;
+}
+
+.friend-form {
+  background: rgba(47, 61, 65, 0.5);
+  border: 4px solid rgba(47, 61, 65, 0.7);
+  border-radius: 8px;
+  margin-top: 10px;
+  height: 250px;
+}
+
+
+.title {
+  background: rgba(47, 61, 65, 0.7);
+  color: #fff;
+  font-family: 'Nunito', sans-serif;
+  font-weight: normal;
+  font-size: 2em;
+  padding: 10px 10px 10px 20px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.form-input {
+  padding: 5px;
+  min-width: 50%;
+  height: 20px;
+  border-radius: 4px;
+  border: none;
+  font-family: 'Nunito', sans-serif;
+  font-weight: normal;
+}
+
+textarea:focus, input:focus, button:focus {
+    outline: 0;
+}
+
+.form-group {
+  padding: 10px 10px 10px 20px;
+}
+
+.logInUser {
+  margin-top: 30px;
+
+}
+.logInPass {
+  margin-top: 20px;
+}
+/* .login-user-info {
+  margin-left: 20px;
+} */
+.login-button {
+  width: 100px;
+  height: 30px;
+  margin-bottom: 10px;
+  
+  border: none;
+  border-radius: 4px;
+  background-size: 500% 100%;
+  background: rgba(6, 41, 61, 1);
+  box-shadow: inset 0 0 0 0 rgba(20, 196, 148, 1);
+	-webkit-transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	transition: all ease 0.3s;
+  
+  color: #fff;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 500;
+  font-size: 0.8em;
+}
+
+.login-button:hover {
+  box-shadow: inset 0 40px 0 0 rgba(20, 196, 148, 1);
+}
+
+.users-pic {
+  height: 60px;
+  width: 80px;
+}
+
+/* END */
+
+.btn-change {
+  margin-left: 50px;
+  margin-top: 5px;
+  margin-left: 100px;
+}
+
+.friends-pic {
+  height: 100px;
+  width: 130px;
+}
+
+.friends-name {
+  margin-top: 35px;
+}
+
+/* new */
+.gamebook {
+  margin-top: -100px;
+}
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+svg {
+    display: block;
+    font: 10.5em 'Montserrat';
+    width: 960px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+	stroke: #FFFFFF;
+	animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+	stroke: #FFFFFF;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke: #FFFFFF;
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	stroke: #FFFFFF;
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+	stroke: #FFFFFF;
+	animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
+}

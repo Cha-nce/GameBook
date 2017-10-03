@@ -1,0 +1,20 @@
+C:\Users\Chaka\Desktop\GameBattle 6\GameBattle\bin\MCD\Debug\netcoreapp2.0\GameBattle.deps.json
+C:\Users\Chaka\Desktop\GameBattle 6\GameBattle\bin\MCD\Debug\netcoreapp2.0\GameBattle.runtimeconfig.json
+C:\Users\Chaka\Desktop\GameBattle 6\GameBattle\bin\MCD\Debug\netcoreapp2.0\GameBattle.runtimeconfig.dev.json
+C:\Users\Chaka\Desktop\GameBattle 6\GameBattle\bin\MCD\Debug\netcoreapp2.0\GameBattle.dll
+C:\Users\Chaka\Desktop\GameBattle 6\GameBattle\bin\MCD\Debug\netcoreapp2.0\GameBattle.pdb
+C:\Users\Chaka\Desktop\GameBattle 6\GameBattle\obj\MCD\Debug\netcoreapp2.0\GameBattle.csproj.CoreCompileInputs.cache
+C:\Users\Chaka\Desktop\GameBattle 6\GameBattle\obj\MCD\Debug\netcoreapp2.0\GameBattle.AssemblyInfoInputs.cache
+C:\Users\Chaka\Desktop\GameBattle 6\GameBattle\obj\MCD\Debug\netcoreapp2.0\GameBattle.AssemblyInfo.cs
+C:\Users\Chaka\Desktop\GameBattle 6\GameBattle\obj\MCD\Debug\netcoreapp2.0\GameBattle.dll
+C:\Users\Chaka\Desktop\GameBattle 6\GameBattle\obj\MCD\Debug\netcoreapp2.0\GameBattle.pdb
+C:\Users\Chaka\Desktop\GameBook\GameBattle_Back\bin\MCD\Debug\netcoreapp2.0\GameBattle.deps.json
+C:\Users\Chaka\Desktop\GameBook\GameBattle_Back\bin\MCD\Debug\netcoreapp2.0\GameBattle.runtimeconfig.json
+C:\Users\Chaka\Desktop\GameBook\GameBattle_Back\bin\MCD\Debug\netcoreapp2.0\GameBattle.runtimeconfig.dev.json
+C:\Users\Chaka\Desktop\GameBook\GameBattle_Back\bin\MCD\Debug\netcoreapp2.0\GameBattle.dll
+C:\Users\Chaka\Desktop\GameBook\GameBattle_Back\bin\MCD\Debug\netcoreapp2.0\GameBattle.pdb
+C:\Users\Chaka\Desktop\GameBook\GameBattle_Back\obj\MCD\Debug\netcoreapp2.0\GameBattle.csproj.CoreCompileInputs.cache
+C:\Users\Chaka\Desktop\GameBook\GameBattle_Back\obj\MCD\Debug\netcoreapp2.0\GameBattle.AssemblyInfoInputs.cache
+C:\Users\Chaka\Desktop\GameBook\GameBattle_Back\obj\MCD\Debug\netcoreapp2.0\GameBattle.AssemblyInfo.cs
+C:\Users\Chaka\Desktop\GameBook\GameBattle_Back\obj\MCD\Debug\netcoreapp2.0\GameBattle.dll
+C:\Users\Chaka\Desktop\GameBook\GameBattle_Back\obj\MCD\Debug\netcoreapp2.0\GameBattle.pdb

@@ -1,0 +1,30 @@
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a ui-sref="home" class="navbar-brand">GameBook</a>
+        </div>
+        <ul class="nav navbar-nav navbar-right navItems">
+            <li class="dropdown">
+                <a class="dropdown-toggle settings myDropdown" data-toggle="dropdown"><span class="glyphicon glyphicon-user myIcon" aria-hidden="true"></span>{{ currentUser.username }} <span class="caret myCaret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a ui-sref="showUsers">View Profile</a></li>
+                    <li><a ui-sref="addUsers">Search Friends</a></li>
+                    <li><a ui-sref="showClans">Search Clans</a></li>
+                    <li><a ui-sref="users">Sign Off</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="homeView">
+<div class="container">
+    <h1 class="text-center">Create Your Clan</h1>
+
+    <div class="form-group">
+        <input type="text" class="form-input" placeholder="Clanname" ng-model="newclan.clanname" required="true">
+    </div>
+
+    <button ng-click="addClans()">Create</button>
+</div>
+</div>

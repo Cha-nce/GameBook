@@ -4,6 +4,10 @@
 
 A social media platform for gamers to connect and communicate with one another. Create a profile, find your friends (or make new ones), create clans, and enjoy playing games with the hundreds of gamers you met!
 
+Developers: Chance Hernandez and Shaneal Prasad
+
+<h3>2 week sprint</h3>
+
 |  Technologies    |
 |-----------------:|
 | HTML             |
@@ -16,8 +20,6 @@ A social media platform for gamers to connect and communicate with one another. 
 | Entity Framework |
 
 <img src="./README_Pictures/final.png">
-
-Developers: Chance Hernandez and Shaneal Prasad
 
 <h3>User Model Example:</h3>
 
@@ -52,7 +54,6 @@ Developers: Chance Hernandez and Shaneal Prasad
 
 <h3>Challenges</h3>
     <ul>
-        <li>understanding how to make requests functional</li>
-        <li>implementing Esports API</li>
-        <li>implementing a 3rd party slider</li>
+        <li>Understanding how to make requests functional</li>
+        <li>Implementing IGN API with slider</li>
     </ul>
